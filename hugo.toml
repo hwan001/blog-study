@@ -1,0 +1,3 @@
+baseURL = "https://hwan001.github.io/blog-study/"
+theme = "ananke"
+title = 'hwan001'
