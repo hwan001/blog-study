@@ -1,3 +1,15 @@
-baseURL = "https://hwan001.github.io/blog-study/"
-theme = "ananke"
-title = 'hwan001'
+baseURL = "https://hwan001.github.io/blog-study"
+title = "Blog / Study"
+
+[menu]
+  [[menu.main]]
+    name = "Docs"
+    pageRef = "/docs"
+    weight = 1
+
+  [[menu.main]]
+    name = "GitHub"
+    weight = 2
+    url = "https://github.com/hwan001"
+    [menu.main.params]
+      icon = "github"
